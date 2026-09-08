@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shine Digital — Built to Outshine</title>
+<meta name="description" content="Shine Digital is a marketing, brand and technology agency. Strategy, creative, growth, digital products, AI and automation — built to outshine.">
+<meta name="theme-color" content="#000000">
+<meta property="og:title" content="Shine Digital — Built to Outshine">
+<meta property="og:description" content="Strategy, brand, growth, digital products and AI. Built to outshine.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/img/logo-mark.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>document.documentElement.classList.remove('no-js');</script>
+</head>
+<body>
+
+<!-- ============ PRELOADER ============ -->
+<div class="loader" id="loader">
+  <div class="loader__inner">
+    <div class="loader__mark">
+      <svg viewBox="0 0 100 100" aria-hidden="true">
+        <polygon points="0,0 47,0 47,47"/><polygon points="53,0 100,0 100,47"/>
+        <polygon points="0,53 47,53 47,100"/><polygon points="53,53 100,53 100,100"/>
+      </svg>
+    </div>
+    <div class="loader__word"><span>Built</span> <span>to</span> <span class="accent">Outshine</span></div>
+    <div class="loader__bar"><i id="loaderBar"></i></div>
+    <div class="loader__num"><span id="loaderNum">0</span>%</div>
+  </div>
+</div>
+
+<!-- ============ AMBIENT LAYERS ============ -->
+<div class="grain" aria-hidden="true"></div>
+<div class="spotlight" id="spotlight" aria-hidden="true"></div>
+<div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__dot"></span><span class="cursor__ring"></span><span class="cursor__label"></span></div>
+<div class="progress" aria-hidden="true"><i id="progressBar"></i></div>
+
+<!-- ============ HEADER ============ -->
+<header class="nav" id="nav">
+  <a href="#top" class="nav__brand" data-cursor="Home">
+    <span class="nav__mark">
+      <svg viewBox="0 0 100 100" aria-hidden="true">
+        <polygon points="0,0 47,0 47,47"/><polygon points="53,0 100,0 100,47"/>
+        <polygon points="0,53 47,53 47,100"/><polygon points="53,53 100,53 100,100"/>
+      </svg>
+    </span>
+    <span class="nav__name">Shine<em>Digital</em></span>
+  </a>
+
+  <nav class="nav__links" aria-label="Primary">
+    <a href="#services" class="nlink"><span>Services</span><span>Services</span></a>
+    <a href="#approach" class="nlink"><span>Approach</span><span>Approach</span></a>
+    <a href="#work" class="nlink"><span>Work</span><span>Work</span></a>
+    <a href="#founder" class="nlink"><span>Founder</span><span>Founder</span></a>
+    <a href="#contact" class="nlink"><span>Contact</span><span>Contact</span></a>
+  </nav>
+
+  <a href="#contact" class="btn btn--sm magnetic nav__cta" data-cursor="Talk">
+    <span>Start a project</span><i class="btn__glow"></i>
+  </a>
+
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><i></i><i></i></button>
+</header>
+
+<!-- ============ MOBILE MENU ============ -->
+<div class="menu" id="menu" aria-hidden="true">
+  <div class="menu__bg"></div>
+  <div class="menu__inner">
+    <nav class="menu__links">
+      <a href="#services"><em>01</em>Services</a>
+      <a href="#approach"><em>02</em>Approach</a>
+      <a href="#work"><em>03</em>Work</a>
+      <a href="#founder"><em>04</em>Founder</a>
+      <a href="#contact"><em>05</em>Contact</a>
+    </nav>
+    <div class="menu__foot">
+      <a href="mailto:hello@shinedigital.com.bd">hello@shinedigital.com.bd</a>
+      <a href="tel:+8801620641864">+880 1620 641864</a>
+    </div>
+  </div>
+</div>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <canvas class="hero__canvas" id="heroCanvas" aria-hidden="true"></canvas>
+  <div class="hero__orb hero__orb--a" aria-hidden="true"></div>
+  <div class="hero__orb hero__orb--b" aria-hidden="true"></div>
+  <div class="hero__grid" aria-hidden="true"></div>
+
+  <div class="hero__inner">
+    <p class="hero__eyebrow reveal"><i class="pulse"></i> Marketing · Technology · AI &nbsp;—&nbsp; Dhaka, building worldwide</p>
+
+    <h1 class="hero__title">
+      <span class="line"><span class="split" data-split>Built to</span></span>
+      <span class="line"><span class="split shine" data-split>Outshine</span></span>
+    </h1>
+
+    <div class="hero__meta">
+      <p class="hero__lead reveal">We are Shine Digital — a strategy, brand and technology studio for companies that refuse to blend in. We turn ambition into positioning, positioning into experience, and experience into growth.</p>
+      <div class="hero__actions reveal">
+        <a href="#contact" class="btn magnetic" data-cursor="Talk"><span>Start a project</span><i class="btn__glow"></i></a>
+        <a href="#services" class="btn btn--ghost magnetic" data-cursor="Explore"><span>See what we do</span></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero__bottom">
+    <a href="#manifesto" class="scrollcue" aria-label="Scroll down"><span class="scrollcue__line"></span>Scroll</a>
+    <div class="hero__stats">
+      <div><b data-count="120" data-suffix="+">0</b><span>Projects shipped</span></div>
+      <div><b data-count="9" data-suffix="+">0</b><span>Markets served</span></div>
+      <div><b data-count="98" data-suffix="%">0</b><span>Client retention</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span>Built to Outshine <i>✦</i> Strategy <i>✦</i> Brand &amp; Creative <i>✦</i> Growth <i>✦</i> Digital Products <i>✦</i> AI &amp; Automation <i>✦</i> </span>
+    <span>Built to Outshine <i>✦</i> Strategy <i>✦</i> Brand &amp; Creative <i>✦</i> Growth <i>✦</i> Digital Products <i>✦</i> AI &amp; Automation <i>✦</i> </span>
+  </div>
+</div>
+
+<!-- ============ MANIFESTO ============ -->
+<section class="manifesto" id="manifesto">
+  <div class="wrap">
+    <p class="tag reveal"><i></i>The idea</p>
+    <h2 class="manifesto__text" data-scrub>Attention is the scarcest currency on earth. We design brands, products and campaigns engineered to earn it — clarity that cuts through, craft that lingers, and technology that compounds. Not louder. Brighter.</h2>
+    <div class="manifesto__foot reveal">
+      <div><b>Strategy first</b><span>Every pixel traces back to a business objective.</span></div>
+      <div><b>Craft always</b><span>Design and engineering held to an obsessive standard.</span></div>
+      <div><b>Proof, not promises</b><span>Measured, iterated and reported without spin.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="services" id="services">
+  <div class="wrap">
+    <header class="shead">
+      <p class="tag reveal"><i></i>What we do</p>
+      <h2 class="h2 reveal-up">Five disciplines,<br>one relentless standard.</h2>
+      <p class="shead__note reveal">From the first strategic question to the software running quietly in the background — we build the whole arc.</p>
+    </header>
+
+    <div class="svc" id="svc">
+      <article class="svc__row">
+        <button class="svc__head" aria-expanded="false">
+          <span class="svc__num">01</span>
+          <h3 class="svc__title">Strategy &amp; Transformation</h3>
+          <span class="svc__plus" aria-hidden="true"></span>
+        </button>
+        <div class="svc__body">
+          <div class="svc__bodyIn">
+            <p class="svc__desc">Direction before decoration. We find the sharpest, most defensible position for your business and build the roadmap to get there.</p>
+            <ul class="svc__list">
+              <li>Brand and marketing strategy</li>
+              <li>Go to market strategy</li>
+              <li>Market and consumer research</li>
+              <li>Customer experience strategy</li>
+              <li>Digital transformation and innovation</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="svc__row">
+        <button class="svc__head" aria-expanded="false">
+          <span class="svc__num">02</span>
+          <h3 class="svc__title">Brand &amp; Creative</h3>
+          <span class="svc__plus" aria-hidden="true"></span>
+        </button>
+        <div class="svc__body">
+          <div class="svc__bodyIn">
+            <p class="svc__desc">Identity with a spine and creative with a pulse — systems that stay unmistakable across every surface they touch.</p>
+            <ul class="svc__list">
+              <li>Brand positioning and identity</li>
+              <li>Campaign strategy and concepts</li>
+              <li>Content creation and production</li>
+              <li>Social media creative</li>
+              <li>Motion design and visual experiences</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="svc__row">
+        <button class="svc__head" aria-expanded="false">
+          <span class="svc__num">03</span>
+          <h3 class="svc__title">Marketing &amp; Growth</h3>
+          <span class="svc__plus" aria-hidden="true"></span>
+        </button>
+        <div class="svc__body">
+          <div class="svc__bodyIn">
+            <p class="svc__desc">Campaigns that compound. We connect brand demand with performance discipline so growth stays efficient at scale.</p>
+            <ul class="svc__list">
+              <li>Integrated marketing campaigns</li>
+              <li>Digital and social media marketing</li>
+              <li>Performance marketing and lead generation</li>
+              <li>SEO and conversion optimization</li>
+              <li>CRM, retention and marketing analytics</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="svc__row">
+        <button class="svc__head" aria-expanded="false">
+          <span class="svc__num">04</span>
+          <h3 class="svc__title">Digital Products &amp; Experiences</h3>
+          <span class="svc__plus" aria-hidden="true"></span>
+        </button>
+        <div class="svc__body">
+          <div class="svc__bodyIn">
+            <p class="svc__desc">Interfaces people actually enjoy using — fast, accessible and engineered to convert from the first frame.</p>
+            <ul class="svc__list">
+              <li>UI and UX design</li>
+              <li>Website design and development</li>
+              <li>Mobile and web applications</li>
+              <li>Ecommerce experiences</li>
+              <li>Product strategy and prototyping</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="svc__row">
+        <button class="svc__head" aria-expanded="false">
+          <span class="svc__num">05</span>
+          <h3 class="svc__title">Software, AI &amp; Automation</h3>
+          <span class="svc__plus" aria-hidden="true"></span>
+        </button>
+        <div class="svc__body">
+          <div class="svc__bodyIn">
+            <p class="svc__desc">The machinery behind the brand. Custom platforms and AI that remove friction, surface insight and give hours back to your team.</p>
+            <ul class="svc__list">
+              <li>Personalized software solutions</li>
+              <li>Business platforms, CRM and ERP</li>
+              <li>AI powered solutions</li>
+              <li>Workflow automation and system integration</li>
+              <li>Data platforms and intelligent dashboards</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ APPROACH (horizontal scroll) ============ -->
+<section class="approach" id="approach">
+  <div class="approach__sticky">
+    <div class="approach__head">
+      <p class="tag"><i></i>How we work</p>
+      <h2 class="h2">The path to brighter.</h2>
+    </div>
+    <div class="approach__track" id="approachTrack">
+      <article class="step">
+        <span class="step__n">01</span>
+        <h3>Listen</h3>
+        <p>We start inside your business — data, customers, competitors, the things everyone knows but nobody has said out loud yet.</p>
+        <ul><li>Discovery workshops</li><li>Research &amp; audits</li><li>Opportunity mapping</li></ul>
+      </article>
+      <article class="step">
+        <span class="step__n">02</span>
+        <h3>Sharpen</h3>
+        <p>We convert findings into a position that is true, ownable and impossible to confuse with anyone else in your category.</p>
+        <ul><li>Positioning &amp; narrative</li><li>Audience &amp; value proposition</li><li>Roadmap &amp; KPIs</li></ul>
+      </article>
+      <article class="step">
+        <span class="step__n">03</span>
+        <h3>Create</h3>
+        <p>Identity, campaigns, product, code. One team, one system, so the brand feels inevitable everywhere it appears.</p>
+        <ul><li>Identity &amp; design systems</li><li>Content &amp; motion</li><li>Product &amp; engineering</li></ul>
+      </article>
+      <article class="step">
+        <span class="step__n">04</span>
+        <h3>Launch</h3>
+        <p>Go-to-market with intent — channels, budget and creative sequenced so the first impression does real work.</p>
+        <ul><li>GTM &amp; media planning</li><li>Campaign production</li><li>Tracking &amp; attribution</li></ul>
+      </article>
+      <article class="step">
+        <span class="step__n">05</span>
+        <h3>Compound</h3>
+        <p>Then we optimise. Every cycle sharpens the message, lowers the cost and widens the lead over everyone still guessing.</p>
+        <ul><li>Experimentation</li><li>Automation &amp; AI</li><li>Reporting &amp; insight</li></ul>
+      </article>
+    </div>
+    <div class="approach__bar"><i id="approachBar"></i></div>
+  </div>
+</section>
+
+<!-- ============ WORK ============ -->
+<section class="work" id="work">
+  <div class="wrap">
+    <header class="shead shead--split">
+      <div>
+        <p class="tag reveal"><i></i>Selected work</p>
+        <h2 class="h2 reveal-up">Proof that the<br>approach travels.</h2>
+      </div>
+      <p class="shead__note reveal">A snapshot across retail, fintech, hospitality and B2B — brands rebuilt, platforms shipped, pipelines filled.</p>
+    </header>
+
+    <div class="cards">
+      <article class="card reveal-up" data-tilt>
+        <div class="card__media card__media--1"><span class="card__mark">SD</span></div>
+        <div class="card__info">
+          <h3>Aurora Retail</h3>
+          <p>Brand system + ecommerce rebuild</p>
+          <span class="card__kpi">+214% revenue</span>
+        </div>
+      </article>
+      <article class="card reveal-up" data-tilt>
+        <div class="card__media card__media--2"><span class="card__mark">SD</span></div>
+        <div class="card__info">
+          <h3>Northline Fintech</h3>
+          <p>Positioning, GTM &amp; performance</p>
+          <span class="card__kpi">-41% CAC</span>
+        </div>
+      </article>
+      <article class="card reveal-up" data-tilt>
+        <div class="card__media card__media--3"><span class="card__mark">SD</span></div>
+        <div class="card__info">
+          <h3>Vireo Hospitality</h3>
+          <p>Campaign, content &amp; motion</p>
+          <span class="card__kpi">18M reach</span>
+        </div>
+      </article>
+      <article class="card reveal-up" data-tilt>
+        <div class="card__media card__media--4"><span class="card__mark">SD</span></div>
+        <div class="card__info">
+          <h3>Helix Industrial</h3>
+          <p>Custom ERP &amp; AI automation</p>
+          <span class="card__kpi">1,900 hrs saved</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TAGLINE BAND ============ -->
+<section class="tagband" id="tagband" aria-label="Built to Outshine">
+  <div class="tagband__sticky">
+    <span class="tagband__ring" aria-hidden="true"></span>
+    <span class="tagband__ring tagband__ring--2" aria-hidden="true"></span>
+    <p class="tagband__eyebrow">Our promise</p>
+    <h2 class="tagband__title" id="tagbandTitle">
+      <span>Built</span> <span>to</span> <span class="accent">Outshine</span>
+    </h2>
+    <p class="tagband__sub">Three words we are held to. Every brief, every line of code and every campaign is measured against them — because good work should be impossible to ignore.</p>
+  </div>
+</section>
+
+<!-- ============ FOUNDER ============ -->
+<section class="founder" id="founder">
+  <div class="wrap founder__grid">
+    <figure class="founder__media reveal-up">
+      <div class="founder__frame">
+        <img src="assets/img/founder-placeholder.svg" alt="Founder of Shine Digital" id="founderImg" loading="lazy">
+        <span class="founder__glow" aria-hidden="true"></span>
+      </div>
+      <figcaption>
+        <b>Founder &amp; CEO</b>
+        <span>Shine Digital</span>
+      </figcaption>
+    </figure>
+
+    <div class="founder__text">
+      <p class="tag reveal"><i></i>Founder&rsquo;s message</p>
+      <blockquote class="founder__quote reveal-up">
+        &ldquo;We started Shine Digital on a simple conviction: good work should be impossible to ignore.&rdquo;
+      </blockquote>
+      <div class="founder__body reveal">
+        <p>Too many brilliant businesses stay invisible — not because the product is weak, but because the story, the experience and the technology were never built to work as one. That gap is where we live.</p>
+        <p>We built this agency to sit at the intersection of strategy, creative and engineering, so our clients never have to translate between three vendors who do not speak the same language. One team, accountable end to end, measured on outcomes rather than deliverables.</p>
+        <p>Whatever stage you are at — launching, repositioning or scaling — our promise stays the same. We will treat your business like our own, tell you the truth, and build something made to outshine.</p>
+        <div class="founder__sign">Built to Outshine.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="quotes" id="quotes">
+  <div class="wrap">
+    <p class="tag reveal"><i></i>What partners say</p>
+  </div>
+  <div class="quotes__rail" id="quotesRail">
+    <div class="quotes__track">
+      <figure class="quote"><p>&ldquo;They replaced three agencies with one team and our pipeline still doubled. The strategy was sharp, the execution sharper.&rdquo;</p><figcaption><b>Head of Marketing</b><span>Retail group</span></figcaption></figure>
+      <figure class="quote"><p>&ldquo;The rebrand finally made us look like the market leader we already were. Sales stopped explaining and started closing.&rdquo;</p><figcaption><b>Managing Director</b><span>B2B manufacturing</span></figcaption></figure>
+      <figure class="quote"><p>&ldquo;Their automation work quietly gave us back two full days a week. That is the part nobody sees and everybody feels.&rdquo;</p><figcaption><b>Operations Lead</b><span>Logistics</span></figcaption></figure>
+      <figure class="quote"><p>&ldquo;Fast, candid and genuinely creative. They pushed back when we were wrong, and they were right to.&rdquo;</p><figcaption><b>Founder</b><span>Fintech startup</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="contact__glow" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="contact__head">
+      <p class="tag reveal"><i></i>Start here</p>
+      <h2 class="contact__title"><span class="split" data-split>Let&rsquo;s build</span><span class="split shine" data-split>something bright.</span></h2>
+      <p class="contact__note reveal">Tell us where you are and where you want to be. We reply within one business day — with thoughts, not a template.</p>
+    </div>
+
+    <div class="contact__grid">
+      <form class="form" id="contactForm" novalidate>
+        <div class="field">
+          <input type="text" id="f-name" name="name" required placeholder=" " autocomplete="name">
+          <label for="f-name">Your name</label>
+        </div>
+        <div class="field">
+          <input type="email" id="f-email" name="email" required placeholder=" " autocomplete="email">
+          <label for="f-email">Email address</label>
+        </div>
+        <div class="field">
+          <input type="text" id="f-company" name="company" placeholder=" " autocomplete="organization">
+          <label for="f-company">Company</label>
+        </div>
+        <div class="field">
+          <select id="f-service" name="service">
+            <option value="">Select a service</option>
+            <option>Strategy &amp; Transformation</option>
+            <option>Brand &amp; Creative</option>
+            <option>Marketing &amp; Growth</option>
+            <option>Digital Products &amp; Experiences</option>
+            <option>Software, AI &amp; Automation</option>
+            <option>Not sure yet</option>
+          </select>
+          <label for="f-service" class="lbl-static">What do you need?</label>
+        </div>
+        <div class="field field--full">
+          <textarea id="f-message" name="message" rows="4" required placeholder=" "></textarea>
+          <label for="f-message">Tell us about the project</label>
+        </div>
+        <div class="form__foot">
+          <button type="submit" class="btn magnetic" data-cursor="Send"><span>Send enquiry</span><i class="btn__glow"></i></button>
+          <p class="form__msg" id="formMsg" role="status"></p>
+        </div>
+      </form>
+
+      <aside class="contact__side">
+        <div class="cblock reveal">
+          <span>Email</span>
+          <a href="mailto:hello@shinedigital.com.bd" data-cursor="Copy" class="copy" data-copy="hello@shinedigital.com.bd">hello@shinedigital.com.bd</a>
+        </div>
+        <div class="cblock reveal">
+          <span>Phone</span>
+          <a href="tel:+8801620641864" data-cursor="Call">+880 1620 641864</a>
+        </div>
+        <div class="cblock reveal">
+          <span>Hours</span>
+          <p>Sun&ndash;Thu, 10:00&ndash;19:00 (GMT+6)<br>Projects worldwide, remote-first.</p>
+        </div>
+        <div class="cblock reveal">
+          <span>Follow</span>
+          <div class="socials">
+            <a href="#" data-cursor="LinkedIn">LinkedIn</a>
+            <a href="#" data-cursor="Instagram">Instagram</a>
+            <a href="#" data-cursor="Behance">Behance</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__top">
+      <a href="#top" class="foot__brand" data-cursor="Top">
+        <span class="nav__mark">
+          <svg viewBox="0 0 100 100" aria-hidden="true">
+            <polygon points="0,0 47,0 47,47"/><polygon points="53,0 100,0 100,47"/>
+            <polygon points="0,53 47,53 47,100"/><polygon points="53,53 100,53 100,100"/>
+          </svg>
+        </span>
+        <span class="nav__name">Shine<em>Digital</em></span>
+      </a>
+      <nav class="foot__nav">
+        <a href="#services">Services</a>
+        <a href="#approach">Approach</a>
+        <a href="#work">Work</a>
+        <a href="#founder">Founder</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+
+    <div class="foot__word" aria-hidden="true"><span>OUTSHINE</span></div>
+
+    <div class="foot__bottom">
+      <p>© <span id="year">2026</span> Shine Digital. All rights reserved.</p>
+      <p class="foot__tag">Built to Outshine.</p>
+      <p><a href="mailto:hello@shinedigital.com.bd">hello@shinedigital.com.bd</a> &nbsp;·&nbsp; <a href="tel:+8801620641864">+880 1620 641864</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
