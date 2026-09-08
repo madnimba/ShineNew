@@ -263,8 +263,8 @@ section[id]{scroll-margin-top:90px}
 /* small editorial first line */
 .hero__title .line--sm{
   display:flex;align-items:center;gap:clamp(.8rem,2vw,1.5rem);
-  font-size:clamp(.86rem,1.9vw,1.5rem);font-weight:300;
-  letter-spacing:.34em;text-transform:uppercase;
+  font-size:clamp(1rem,2.6vw,2.15rem);font-weight:300;
+  letter-spacing:.28em;text-transform:uppercase;
   color:rgba(255,255,255,.66);padding-bottom:.4em;
 }
 .hero__title .line--sm .rule{height:1px;width:clamp(26px,6vw,90px);flex:none;
@@ -273,7 +273,7 @@ section[id]{scroll-margin-top:90px}
 .hero__title .line--sm.is-in .rule{transform:scaleX(1)}
 
 /* the word */
-.hero__title .line--xl{font-size:clamp(3.6rem,18.6vw,16.5rem);line-height:.84;letter-spacing:-.055em;
+.hero__title .line--xl{font-size:clamp(3.2rem,14.6vw,13rem);line-height:.84;letter-spacing:-.055em;
   font-weight:500;padding-bottom:.1em}
 .word{display:inline-block;transform:translateY(104%);opacity:0;will-change:transform}
 .line.is-in .word{animation:wordIn 1.25s var(--ease) .1s forwards}
@@ -679,8 +679,8 @@ section[id]{scroll-margin-top:90px}
 
 @media (max-width:700px){
   .hero{padding-top:130px;justify-content:flex-end}
-  .hero__title .line--xl{font-size:clamp(3.2rem,17.5vw,5.6rem)}
-  .hero__title .line--sm{letter-spacing:.24em;font-size:clamp(.72rem,3vw,1rem)}
+  .hero__title .line--xl{font-size:clamp(2.9rem,15vw,5rem)}
+  .hero__title .line--sm{letter-spacing:.22em;font-size:clamp(.82rem,3.6vw,1.2rem)}
   .hero__bottom{flex-direction:column;align-items:flex-start;gap:1.4rem}
   .hero__stats{width:100%;justify-content:space-between;text-align:left;gap:1rem}
   .hero__stats b{font-size:1.35rem}
