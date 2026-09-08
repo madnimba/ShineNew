@@ -171,11 +171,13 @@
 
     items.forEach(function (i) { if (!i.closest('.hero')) io.observe(i); });
 
-    // heading char animations outside the hero
-    $$('.contact__title .split').forEach(function (s) {
+    // headline reveals outside the hero
+    $$('.contact__title .line').forEach(function (s, i) {
       var o = new IntersectionObserver(function (en) {
-        if (en[0].isIntersecting) { s.classList.add('is-in'); o.disconnect(); }
-      }, { threshold: 0.4 });
+        if (!en[0].isIntersecting) return;
+        setTimeout(function () { s.classList.add('is-in'); }, i * 120);
+        o.disconnect();
+      }, { threshold: 0.3 });
       o.observe(s);
     });
   })();

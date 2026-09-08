@@ -22,18 +22,17 @@ npx serve .          # or: python -m http.server 8000
 
 ## The three things you'll want to change first
 
-**1. Founder photo** — save the photo as `assets/img/founder.jpg`, then in `index.html` change:
+**1. Founder caption** — the photo at `assets/img/founder.jpg` is already wired up. It carries a
+warm vignette and slight desaturation so a bright studio background blends into the black page,
+and returns to full colour on hover; tune that in the `.founder__frame` rules. Still to do:
+replace `Founder & CEO` in the caption with the real name and title, and swap the placeholder
+message for the founder's own words. To change the photo later, in `index.html` change:
 
-```html
-<img src="assets/img/founder-placeholder.svg" ...>
-```
-to
 ```html
 <img src="assets/img/founder.jpg" ...>
 ```
 
-A portrait crop around 4:5 works best. While you're there, replace `Founder & CEO` in the
-caption with the real name and title.
+A portrait crop around 4:5 works best.
 
 **2. Contact form** — it currently validates, then hands off to the visitor's email client
 (`mailto:hello@shinedigital.com.bd`). To capture submissions properly, replace the handoff in
